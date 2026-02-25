@@ -1,0 +1,11 @@
+class Solution {
+    public int divide(int dividend, int divisor) {
+        int result = dividend/divisor;
+        if(dividend == -2147483648 && divisor == -1){
+            return result-1;
+        }
+        else{
+            return result;
+        } 
+    }
+}
